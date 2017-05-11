@@ -1,0 +1,147 @@
+/* HTML5 reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;	-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-shadow:none;text-rendering: optimizeLegibility;  -moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+
+/* HTML5 reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+b	ody{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}
+
+/* Body ----------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*{ //adds to all elements or you can just add to the ones that use padding
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;    
+}
+
+h1 {
+	font-weight: bold;
+	padding-left: 64px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	font-size: 300%;
+	margin-top: 32px;
+    font-family: "Love Ya Like A Sister";
+	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #008000;
+    background-image: linear-gradient(to bottom, #FFFFFF, #008000);
+    background-repeat: no-repeat;
+	}
+	
+a {
+	text-decoration: none;
+	}
+	
+	
+a:link { color: #000;
+	}
+a:visited { color: #000;
+	}
+a:active { color: #000;
+	}
+a:hover {
+	text-decoration: underline;
+	}	
+
+div#wrapper {
+	margin: 32px;
+	padding: 32px;
+	margin-top: 10px;
+}
+
+
+
+ul.tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.tabs li {
+	display: inline;
+	margin: 0 -5px 0 0;
+	padding: 0;
+	background-color: #c9e6f2;
+}
+
+
+
+ul.tabs li a {
+	margin: 0;
+	padding: 15px 15px 14px 15px;	
+	border: 1px solid #ccc;	
+	border-radius: 5px 5px 0 0;
+	background-color: #e6ffe6;
+}
+
+ul.tabs li a.selected {
+	padding-bottom: 14px;
+	border-bottom: 3px solid #fff;
+	background-color: #ffffff;
+}
+
+div#Home {
+	margin: 15px 0 0 0;
+	padding: 32px;
+	border: 1px solid #ccc;
+	clear: both;
+	background-color: #fff;
+	height: 600px;
+	
+}
+
+div#Pickles {
+	margin: 15px 0 0 0;
+	padding: 32px;
+	border: 1px solid #ccc;
+	clear: both;
+	background-color: #fff;
+	height: 600px;
+	
+}
+
+div#Purchase {
+	margin: 15px 0 0 0;
+	padding: 32px;	
+	border: 1px solid #ccc;
+	clear: both;
+	background-color: #fff;
+	height: 600px;
+	
+}
+
+#floatleft {
+	float: left;
+	width: 40%;
+}
+
+#floatright {
+	float: right;
+    width: 40%;
+   
+}
+
+textarea {
+    width: 100%;
+    
+}
+
+
+
+footer{
+	
+	text-align: center;
+	font-style: italic;
+	font-size: 75%;
+}
+
+/*I reused the CSS from my unit 1 project*/
