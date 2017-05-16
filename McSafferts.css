@@ -30,6 +30,16 @@ h1 {
 	
 }
 
+h2{
+    font-weight: bold;
+	padding-left: 0px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	font-size: 150%;
+	margin-top: 32px;
+    font-family: "Love Ya Like A Sister";
+}
+
 body {
 	margin: 0;
 	padding: 0;
